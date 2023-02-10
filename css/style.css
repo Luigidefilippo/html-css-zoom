@@ -54,8 +54,42 @@ span {
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
 }
-.footer{
-    position: fixed;
+
+    /* FOOTER */
+
+.footer-container {
+    height: 70px;
+    background-color: #222222;
+    color: white;
+}
+.actions {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.action {
+    align-items: center;
+    justify-content: center;
+    margin:0 10px ;
 }
 
-    
+.action li {
+    margin-left: 10px;
+}
+
+.fa-share-from-square {
+    color: green;
+}
+
+.ending {
+    color: red;
+    background-color: #4a4a4a;
+    height: 100%;
+    line-height: 70px;
+}
+
+.action i {
+    font-size: 1.6rem;
+}
